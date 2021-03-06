@@ -1,0 +1,18 @@
+.btn-chat {
+  width: 80px;
+  height: 80px;
+  background-color: rgb(200,200,200);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 550px;
+  right: 8px;
+}
+
+.btn-chat:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+}

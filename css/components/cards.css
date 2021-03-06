@@ -3,6 +3,7 @@
   margin: 0 0 1em;
   width: 100%;
   display: inline-block;
+  position: relative;
 }
 
 
@@ -32,4 +33,9 @@
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
+}
+
+.cards:hover {
+  opacity: 0.9;
+  transition: 0.2s;
 }

@@ -6,6 +6,7 @@
 @import url("components/cards.css");
 @import url("components/masonry.css");
 @import url("components/nav-bar.css");
+@import url("components/btn-chat.css");
 
 /* --- Fonts & colors --- */
 body {
@@ -20,6 +21,10 @@ h1, h2, h3 {
 h2 {
   font-size: 14px;
   font-weight: 400;
+}
+
+h3 {
+  font-size: 32px;
 }
 
 p {
@@ -51,6 +56,7 @@ a:hover {
   text-decoration: none;
   padding: 12px 24px;
   font-weight: bold;
+  transition: 0.2s;
 }
 
 .btn-active {
@@ -59,4 +65,36 @@ a:hover {
   text-decoration: none;
   background-color: #000;
   padding: 12px 24px;
+}
+
+.btn-active:hover {
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #000;
+  padding: 12px 24px;
+}
+
+.btn-save {
+  border-radius: 50px;
+  background-color: #E60122;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  display: none;
+}
+
+.cards:hover .btn-save {
+  border-radius: 50px;
+  background-color: #E60122;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  display: block;
+  transition: 0.3s;
 }
